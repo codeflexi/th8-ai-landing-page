@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH8.AI Investor Overview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --th8-red: #dc2626;
+            --th8-black: #111827;
+            --th8-gray: #f3f4f6;
+        }
+        body { font-family: 'Prompt', sans-serif; background-color: #f9fafb; }
+        .bmc-box {
+            @apply bg-white p-4 border border-gray-200 shadow-sm rounded-lg flex flex-col;
+            min-height: 180px;
+        }
+        .bmc-header {
+            @apply text-xs font-bold text-gray-400 uppercase tracking-wider mb-2 flex items-center gap-2;
+        }
+        .bmc-content {
+            @apply text-sm text-gray-700 space-y-2 flex-grow;
+        }
+        .bmc-highlight {
+            @apply font-semibold text-gray-900;
+        }
+        .swot-card {
+            @apply p-6 rounded-xl shadow-md border-t-4 bg-white;
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased">
+
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900">
+                    <span class="text-red-600">TH8</span>.AI
+                </h1>
+                <p class="text-sm text-gray-500 font-medium mt-1">Enterprise AI Agent Orchestrator for SAP</p>
+            </div>
+            <div class="text-right">
+                <span class="bg-red-100 text-red-800 text-xs font-semibold px-3 py-1 rounded-full">Day 1 Launch Strategy</span>
+                <p class="text-xs text-gray-400 mt-1">December 2025</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-10 space-y-16">
+
+        <section>
+            <div class="mb-6 flex items-center justify-between">
+                <h2 class="text-2xl font-bold text-gray-900 flex items-center gap-2">
+                    <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0h6"></path></svg>
+                    SWOT Analysis
+                </h2>
+                <span class="text-sm text-gray-500">Competitive Position at Launch</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="swot-card border-green-500">
+                    <h3 class="text-lg font-bold text-green-700 mb-4 flex items-center">
+                        <span class="bg-green-100 p-1 rounded mr-2">S</span> Strengths (จุดแข็ง)
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> <span><b>Deep Domain Convergence:</b> ทีมเชี่ยวชาญผสมผสาน SAP + AI + Business Process (Rare Talent)</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> <span><b>Agility & Speed:</b> ส่งมอบ POC ได้ใน 4 สัปดาห์ เร็วกว่า Global Consulting Firm 3 เท่า</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> <span><b>Thai Context Native:</b> AI เข้าใจบริบทการค้า/จัดซื้อแบบไทยที่ซับซ้อน</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> <span><b>Clean Core Architecture:</b> การันตีความปลอดภัย ไม่กระทบ Core ERP เดิม</span></li>
+                    </ul>
+                </div>
+
+                <div class="swot-card border-red-500">
+                    <h3 class="text-lg font-bold text-red-700 mb-4 flex items-center">
+                        <span class="bg-red-100 p-1 rounded mr-2">W</span> Weaknesses (จุดอ่อน)
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start"><span class="text-red-500 mr-2">●</span> <span><b>No Track Record:</b> ยังไม่มี Logo ลูกค้า Enterprise อ้างอิง (Trust Barrier)</span></li>
+                        <li class="flex items-start"><span class="text-red-500 mr-2">●</span> <span><b>Resource Constraint:</b> ทีมเล็ก (3 คน) มีความเสี่ยงเรื่อง Bus Factor และ Support</span></li>
+                        <li class="flex items-start"><span class="text-red-500 mr-2">●</span> <span><b>Limited Brand Awareness:</b> ยังไม่เป็นที่รู้จักในวงกว้างเทียบกับเจ้าตลาด</span></li>
+                    </ul>
+                </div>
+
+                <div class="swot-card border-blue-500">
+                    <h3 class="text-lg font-bold text-blue-700 mb-4 flex items-center">
+                        <span class="bg-blue-100 p-1 rounded mr-2">O</span> Opportunities (โอกาส)
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start"><span class="text-blue-500 mr-2">▲</span> <span><b>S/4HANA Migration Wave:</b> บริษัทไทยจำนวนมากเพิ่งขึ้นระบบและต้องการ ROI ด่วน</span></li>
+                        <li class="flex items-start"><span class="text-blue-500 mr-2">▲</span> <span><b>AI Fatigue:</b> ตลาดเบื่อ Chatbot ธรรมดา ต้องการ "Actionable AI" ที่ทำงานแทนคนได้จริง</span></li>
+                        <li class="flex items-start"><span class="text-blue-500 mr-2">▲</span> <span><b>Economic Pressure:</b> CFO มองหาเครื่องมือลด Cost & Working Capital อย่างจริงจัง</span></li>
+                    </ul>
+                </div>
+
+                <div class="swot-card border-gray-500">
+                    <h3 class="text-lg font-bold text-gray-700 mb-4 flex items-center">
+                        <span class="bg-gray-200 p-1 rounded mr-2">T</span> Threats (อุปสรรค)
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start"><span class="text-gray-500 mr-2">!</span> <span><b>SAP Joule/Copilot:</b> คู่แข่งทางตรงจาก SAP ที่อาจพัฒนาฟีเจอร์มาทับซ้อนในอนาคต</span></li>
+                        <li class="flex items-start"><span class="text-gray-500 mr-2">!</span> <span><b>Trust Crisis:</b> ข่าว Data Leakage ในอุตสาหกรรมอาจทำให้ลูกค้าชะลอการใช้ AI</span></li>
+                        <li class="flex items-start"><span class="text-gray-500 mr-2">!</span> <span><b>SI Competitors:</b> บริษัท Implementer รายใหญ่เริ่มสร้างทีม AI แข่งขัน</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="mb-6 flex items-center justify-between">
+                <h2 class="text-2xl font-bold text-gray-900 flex items-center gap-2">
+                    <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    Business Model Canvas
+                </h2>
+                <span class="text-sm text-gray-500">Standard Enterprise Layout</span>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 auto-rows-min">
+                
+                <div class="bmc-box lg:row-span-2">
+                    <div class="bmc-header">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        Key Partners
+                    </div>
+                    <div class="bmc-content">
+                        <p class="bmc-highlight">Cloud Providers</p>
+                        <p>Microsoft Azure / Google Cloud (For Data Privacy Guarantee)</p>
+                        <hr class="border-gray-100">
+                        <p class="bmc-highlight">SAP SIs</p>
+                        <p>Local Implementers (Nexus, ABeam) as referral channels.</p>
+                    </div>
+                </div>
+
+                <div class="bmc-box">
+                    <div class="bmc-header">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+                        Key Activities
+                    </div>
+                    <div class="bmc-content">
+                        <p>• <b>Hunting:</b> Direct Sales Pitching.</p>
+                        <p>• <b>Context Engineering:</b> Tuning AI Logic per client.</p>
+                        <p>• <b>Trust Building:</b> Security Audits & Governance.</p>
+                    </div>
+                </div>
+
+                <div class="bmc-box lg:row-span-2 border-red-500 ring-4 ring-red-50">
+                    <div class="bmc-header text-red-600">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        Value Propositions
+                    </div>
+                    <div class="bmc-content text-base">
+                        <p class="bmc-highlight text-lg">Financial Certainty</p>
+                        <p class="mb-2">AI ที่ปกป้อง Gross Margin และลด Margin Leakage ได้จริง</p>
+                        
+                        <p class="bmc-highlight text-lg">Operational Resilience</p>
+                        <p class="mb-2">ลด Stockout/Overstock ด้วย Prescriptive Actions</p>
+
+                        <p class="bmc-highlight">Clean Core Guarantee</p>
+                        <p>ปลอดภัย ไม่แตะต้อง Core ERP เดิม</p>
+                    </div>
+                </div>
+
+                <div class="bmc-box">
+                    <div class="bmc-header">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        Relationships
+                    </div>
+                    <div class="bmc-content">
+                        <p>• <b>High-Touch:</b> Founder-led consult during pilot.</p>
+                        <p>• <b>Rapid POC:</b> 4-8 week proof of value.</p>
+                    </div>
+                </div>
+
+                <div class="bmc-box lg:row-span-2">
+                    <div class="bmc-header">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                        Customer Segments
+                    </div>
+                    <div class="bmc-content">
+                        <p class="bmc-highlight">Profile</p>
+                        <p>Enterprise using SAP S/4HANA</p>
+                        <hr class="border-gray-100">
+                        <p class="bmc-highlight">Industry</p>
+                        <p>FMCG, Manufacturing, Retail (High Vol, Low Margin)</p>
+                        <hr class="border-gray-100">
+                        <p class="bmc-highlight">Decision Maker</p>
+                        <p>CFO, COO, IT Director</p>
+                    </div>
+                </div>
+
+                <div class="bmc-box">
+                    <div class="bmc-header">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                        Key Resources
+                    </div>
+                    <div class="bmc-content">
+                        <p>• <b>Deep Tech Talent:</b> Founder Team.</p>
+                        <p>• <b>Proprietary Code:</b> LangGraph Agent Logic.</p>
+                    </div>
+                </div>
+
+                <div class="bmc-box">
+                    <div class="bmc-header">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg>
+                        Channels
+                    </div>
+                    <div class="bmc-content">
+                        <p>• Direct Sales (Founder-Led).</p>
+                        <p>• SAP Partner Referral.</p>
+                        <p>• Executive Forums.</p>
+                    </div>
+                </div>
+
+                <div class="bmc-box lg:col-span-2 bg-gray-50 border-none shadow-inner">
+                    <div class="bmc-header text-gray-500">Cost Structure</div>
+                    <div class="bmc-content flex justify-between">
+                        <div>
+                            <p class="bmc-highlight">Fixed</p>
+                            <p>Specialized Personnel (Team Salary)</p>
+                        </div>
+                        <div>
+                            <p class="bmc-highlight">Variable</p>
+                            <p>Cloud Infra & LLM Tokens (Minimized via BYOL)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bmc-box lg:col-span-3 bg-green-50 border border-green-200">
+                    <div class="bmc-header text-green-700">Revenue Streams</div>
+                    <div class="bmc-content grid grid-cols-3 gap-4">
+                        <div>
+                            <p class="bmc-highlight text-green-800">1. Setup Fee</p>
+                            <p class="text-xs">One-time Implementation & Clean Core Integration.</p>
+                        </div>
+                        <div>
+                            <p class="bmc-highlight text-green-800">2. Subscription</p>
+                            <p class="text-xs">Monthly License per Agent / Maintenance.</p>
+                        </div>
+                        <div>
+                            <p class="bmc-highlight text-green-800">3. Paid Pilot</p>
+                            <p class="text-xs">Low-risk entry point for new clients.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 text-center text-sm">
+        <p>&copy; 2025 TH8.AI Confidential Investor Deck</p>
+    </footer>
+
+</body>
+</html>

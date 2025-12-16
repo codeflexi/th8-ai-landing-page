@@ -1,0 +1,13 @@
+# OS Junk files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE Configs
+.vscode/
+.idea/
+
+# Node modules (เผื่อในอนาคตมีการใช้ npm)
+node_modules/
+dist/
+*.log

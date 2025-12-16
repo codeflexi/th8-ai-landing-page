@@ -1,0 +1,208 @@
+<section class="mt-8">
+  <div class="rounded-3xl border border-slate-200 bg-white shadow-sm p-6">
+
+    <!-- MAIN GRID -->
+    <div class="grid grid-cols-12 gap-6">
+
+      <!-- LEFT : KNOWLEDGE -->
+      <div class="col-span-12 lg:col-span-3 space-y-6">
+
+        <!-- Memory System -->
+        <div class="rounded-2xl border border-amber-200 bg-amber-50 p-5">
+          <div class="flex items-center justify-between">
+            <div class="text-base font-semibold text-amber-900">Memory System</div>
+            <span class="text-[11px] font-semibold text-amber-700 bg-amber-100 border border-amber-200 rounded-full px-2 py-1">
+              “สมองส่วนจำ”
+            </span>
+          </div>
+          <div class="mt-3 space-y-2 text-xs">
+            <div class="rounded-xl border border-amber-200 bg-white p-3">
+              <div class="font-semibold">Working (Redis)</div>
+              <div class="text-slate-600 mt-1">จำชั่วคราวสำหรับ task นี้</div>
+            </div>
+            <div class="rounded-xl border border-amber-200 bg-white p-3">
+              <div class="font-semibold">Episodic (Postgres/Mongo)</div>
+              <div class="text-slate-600 mt-1">จำ “เหตุการณ์ + ผลลัพธ์”</div>
+            </div>
+            <div class="rounded-xl border border-amber-200 bg-white p-3">
+              <div class="font-semibold">Semantic/Policy</div>
+              <div class="text-slate-600 mt-1">บทเรียน / กฎ / preference</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Knowledge & RAG -->
+        <div class="rounded-2xl border border-emerald-200 bg-emerald-50 p-5">
+          <div class="flex items-center justify-between">
+            <div class="text-base font-semibold text-emerald-900">Knowledge & RAG</div>
+            <span class="text-[11px] font-semibold text-emerald-700 bg-emerald-100 border border-emerald-200 rounded-full px-2 py-1">
+              Ground Truth
+            </span>
+          </div>
+          <div class="mt-3 space-y-2 text-xs">
+            <div class="rounded-xl border border-emerald-200 bg-white p-3">
+              <div class="font-semibold">Documents</div>
+              <div class="text-slate-600 mt-1">SOP / Policy / Contracts</div>
+            </div>
+            <div class="rounded-xl border border-emerald-200 bg-white p-3">
+              <div class="font-semibold">Indexes</div>
+              <div class="text-slate-600 mt-1">Vector + Keyword + Rerank</div>
+            </div>
+            <div class="rounded-xl border border-emerald-200 bg-white p-3">
+              <div class="font-semibold">Evidence</div>
+              <div class="text-slate-600 mt-1">อ้างอิงที่มาได้</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CENTER : FLOW -->
+      <div class="col-span-12 lg:col-span-6 space-y-6">
+
+        <!-- User -->
+        <div class="rounded-2xl border border-slate-200 bg-slate-100 p-4 text-center">
+          <div class="text-sm font-semibold">User / Executive / Ops</div>
+          <div class="text-xs text-slate-600 mt-1">Chat · API · Workflow Trigger</div>
+        </div>
+
+        <div class="text-center text-slate-400">↓</div>
+
+        <!-- Entry -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-4 text-center">
+          <div class="text-sm font-semibold">Entry Points</div>
+          <div class="text-xs text-slate-600 mt-1">
+            Chat UI (LINE/Teams) · API Gateway · Scheduler · Event Bus
+          </div>
+        </div>
+
+        <div class="text-center text-slate-400">↓</div>
+
+        <!-- Agent -->
+        <div class="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+          <div class="flex items-center justify-between">
+            <div class="text-base font-semibold text-blue-900">AI Agent Orchestrator</div>
+            <span class="text-[11px] font-semibold text-blue-700 bg-blue-100 border border-blue-200 rounded-full px-2 py-1">
+              Thinking Layer
+            </span>
+          </div>
+          <div class="mt-3 grid grid-cols-3 gap-3 text-xs">
+            <div class="rounded-xl border border-blue-200 bg-white p-3">
+              <div class="font-semibold">Planner</div>
+              <div class="text-slate-600 mt-1">วางแผนขั้นตอนก่อนลงมือ</div>
+            </div>
+            <div class="rounded-xl border border-blue-200 bg-white p-3">
+              <div class="font-semibold">State Machine</div>
+              <div class="text-slate-600 mt-1">คุม flow ลดความสุ่ม</div>
+            </div>
+            <div class="rounded-xl border border-blue-200 bg-white p-3">
+              <div class="font-semibold">Risk Check</div>
+              <div class="text-slate-600 mt-1">confidence + safety gate</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center text-slate-400">↓</div>
+
+        <!-- Context -->
+        <div class="rounded-2xl border border-indigo-200 bg-indigo-50 p-5">
+          <div class="flex items-center justify-between">
+            <div class="text-base font-semibold text-indigo-900">Context Builder</div>
+            <span class="text-[11px] font-semibold text-indigo-700 bg-indigo-100 border border-indigo-200 rounded-full px-2 py-1">
+              Selection Layer
+            </span>
+          </div>
+          <div class="mt-3 grid grid-cols-3 gap-3 text-xs">
+            <div class="rounded-xl border border-indigo-200 bg-white p-3">
+              <div class="font-semibold">Intent</div>
+              <div class="text-slate-600 mt-1">เข้าใจว่า “ต้องทำอะไร”</div>
+            </div>
+            <div class="rounded-xl border border-indigo-200 bg-white p-3">
+              <div class="font-semibold">Budget</div>
+              <div class="text-slate-600 mt-1">ดึงเท่าที่จำเป็น</div>
+            </div>
+            <div class="rounded-xl border border-indigo-200 bg-white p-3">
+              <div class="font-semibold">Stitching</div>
+              <div class="text-slate-600 mt-1">รวม Memory + RAG + Policy</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center text-slate-400">↓</div>
+
+        <!-- Post Action -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-4 text-center">
+          <div class="text-sm font-semibold">Post-Action Memory Loop</div>
+          <div class="text-xs text-slate-600 mt-1">
+            ผลจาก Tools → บันทึกเป็น Episodic Memory → ใช้เป็นบริบทครั้งถัดไป (พร้อม approval/audit)
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT : EXECUTION + GOVERNANCE -->
+      <div class="col-span-12 lg:col-span-3 space-y-6">
+
+        <!-- Tools -->
+        <div class="rounded-2xl border border-violet-200 bg-violet-50 p-5">
+          <div class="flex items-center justify-between">
+            <div class="text-base font-semibold text-violet-900">Tools & Actions</div>
+            <span class="text-[11px] font-semibold text-violet-700 bg-violet-100 border border-violet-200 rounded-full px-2 py-1">
+              Execution
+            </span>
+          </div>
+          <div class="mt-3 space-y-2 text-xs">
+            <div class="rounded-xl border border-violet-200 bg-white p-3">
+              <div class="font-semibold">Read Tools</div>
+              <div class="text-slate-600 mt-1">query ERP/WMS/DB</div>
+            </div>
+            <div class="rounded-xl border border-violet-200 bg-white p-3">
+              <div class="font-semibold">Write Tools</div>
+              <div class="text-slate-600 mt-1">create ticket / update status</div>
+            </div>
+            <div class="rounded-xl border border-violet-200 bg-white p-3">
+              <div class="font-semibold">Approval Gate</div>
+              <div class="text-slate-600 mt-1">high-risk actions ต้องอนุมัติ</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Governance -->
+        <div class="rounded-2xl bg-slate-950 p-5 border border-slate-900">
+          <div class="text-white text-lg font-semibold">Governance & Observability</div>
+          <div class="text-slate-300 text-sm mt-1">
+            Policy · Approval · Audit Log · Monitoring · Security · Evaluation
+          </div>
+
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="rounded-full bg-white/10 text-white px-3 py-1">RBAC/ABAC</span>
+            <span class="rounded-full bg-white/10 text-white px-3 py-1">Lineage</span>
+            <span class="rounded-full bg-white/10 text-white px-3 py-1">Cost/Latency</span>
+            <span class="rounded-full bg-white/10 text-white px-3 py-1">LLM Eval</span>
+          </div>
+
+          <div class="mt-4 space-y-2 text-xs">
+            <div class="rounded-xl bg-white/5 border border-white/10 p-3 text-slate-200">
+              <div class="font-semibold text-white">Policy Gate</div>
+              <div class="mt-1">คุมสิ่งที่ AI “ทำได้/ห้ามทำ”</div>
+            </div>
+            <div class="rounded-xl bg-white/5 border border-white/10 p-3 text-slate-200">
+              <div class="font-semibold text-white">Audit Trail</div>
+              <div class="mt-1">ย้อนดู prompt / docs / tool calls</div>
+            </div>
+            <div class="rounded-xl bg-white/5 border border-white/10 p-3 text-slate-200">
+              <div class="font-semibold text-white">Monitoring</div>
+              <div class="mt-1">latency, cost, drift, errors</div>
+            </div>
+            <div class="rounded-xl bg-white/5 border border-white/10 p-3 text-slate-200">
+              <div class="font-semibold text-white">Evaluation</div>
+              <div class="mt-1">regression tests & quality gates</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>

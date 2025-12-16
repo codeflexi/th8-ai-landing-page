@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH8.AI | AI Agent for SAP Enterprise</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom Colors and Font adjustments */
+        :root {
+            --color-primary: #dc2626; /* Crimson Red */
+            --color-secondary: #1f2937; /* Dark Gray/Black */
+            --color-background: #ffffff; /* White */
+        }
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: var(--color-background);
+        }
+        .text-primary { color: var(--color-primary); }
+        .bg-primary { background-color: var(--color-primary); }
+        .text-secondary { color: var(--color-secondary); }
+        .border-primary { border-color: var(--color-primary); }
+
+        /* Adjusted Font Weights */
+        .text-7xl { font-weight: 700; } /* H1 */
+        .text-4xl { font-weight: 600; } /* H2 */
+        .text-2xl { font-weight: 600; } /* H3 */
+    </style>
+</head>
+<body>
+
+    <header class="text-secondary border-b border-gray-200 sticky top-0 bg-white z-10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="text-3xl font-extrabold flex items-center">
+                <span class="text-primary">TH8</span><span class="text-secondary">.AI</span>
+            </div>
+            <nav class="hidden md:flex space-x-10 text-base font-medium">
+                <a href="#glance" class="hover:text-primary transition duration-300">TH8 คืออะไร</a>
+                <a href="#products" class="hover:text-primary transition duration-300">Agent ของเรา</a>
+                <a href="#value" class="hover:text-primary transition duration-300">ROI</a>
+                <a href="#contact" class="bg-secondary text-white px-5 py-2 rounded-lg hover:bg-gray-800 transition duration-300 shadow-md font-semibold">เริ่ม POC</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="pt-24 pb-16 max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-left">
+            <div class="lg:order-1">
+                <span class="inline-block px-4 py-1 text-sm font-semibold tracking-widest text-primary border border-primary rounded-full uppercase">
+                    AI Agent Orchestrator for SAP Enterprise
+                </span>
+                <h1 class="mt-8 text-7xl text-secondary leading-tight tracking-tighter">
+                    <span class="text-primary">หยุด</span> การตัดสินใจที่ทำให้กำไร <span class="text-primary">รั่วไหล</span>
+                </h1>
+                <p class="mt-6 text-xl text-gray-600 font-light">
+                    TH8.AI สร้าง **พนักงานดิจิทัล** ที่เชื่อม P&L เข้ากับการปฏิบัติงานจริง เพื่อสร้างคำสั่งที่ **ปกป้อง Gross Margin** ของท่านโดยอัตโนมัติ
+                </p>
+                <div class="mt-8 flex space-x-4">
+                    <a href="#contact" class="bg-primary text-white text-lg font-bold px-8 py-3 rounded-xl hover:bg-red-700 transition duration-300 shadow-xl shadow-red-300/50">
+                        นัดหมาย Executive Briefing
+                    </a>
+                </div>
+            </div>
+            
+            <div class="lg:order-2">
+                <img 
+                    src="http://googleusercontent.com/image_generation_content/0" 
+                    alt="TH8.AI Enterprise Agent Orchestration Vector" 
+                    class="w-full h-auto rounded-2xl shadow-2xl border border-gray-200"
+                />
+            </div>
+        </div>
+    </section>
+    
+    <section id="glance" class="py-16 bg-gray-50 border-y border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="text-4xl text-secondary mb-12">
+                TH8.AI คือ <span class="text-primary">AI Agent</span> ที่...
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-secondary">
+                    <svg class="w-10 h-10 text-secondary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0h6"></path></svg>
+                    <h3 class="text-xl font-bold text-secondary">1. สร้าง Action (ไม่ใช่แค่ Report)</h3>
+                    <p class="mt-2 text-gray-600 text-sm">เราไม่ทำแค่ Dashboard แต่สร้างคำสั่ง **ออก PO/PR** หรือ **โยกย้ายสต็อก** เข้าสู่ระบบ SAP โดยตรง</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-primary">
+                    <svg class="w-10 h-10 text-primary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V9m0 3v2.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h3 class="text-xl font-bold text-secondary">2. ปกป้อง Margin (Finance Focus)</h3>
+                    <p class="mt-2 text-gray-600 text-sm">เราใช้ **Margin Guardrails** เพื่อปกป้องกำไร ในขณะที่ระบบเดิม (CRM/RPA) ไม่สามารถทำได้</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-secondary">
+                    <svg class="w-10 h-10 text-secondary mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+                    <h3 class="text-xl font-bold text-secondary">3. Clean Core & Secure (IT Trust)</h3>
+                    <p class="mt-2 text-gray-600 text-sm">เราการันตีความปลอดภัยและไม่กระทบ Core System ของท่าน (SAP) ผ่านสถาปัตยกรรม Clean Core</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-24">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-4xl text-center text-secondary">
+                ผลิตภัณฑ์หลัก: <span class="text-primary">ชุด AI Agent ที่พร้อมใช้งาน</span>
+            </h2>
+            
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md border-t-4 border-primary hover:shadow-lg transition">
+                    <svg class="w-8 h-8 text-primary mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    <h4 class="text-xl font-bold text-secondary">Financial Guardrail Agent</h4>
+                    <p class="mt-2 text-gray-600 font-light text-sm">ควบคุมการใช้จ่ายและการให้ส่วนลด เพื่อปกป้อง P&L ของท่าน</p>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md border-t-4 border-secondary hover:shadow-lg transition">
+                    <svg class="w-8 h-8 text-secondary mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                    <h4 class="text-xl font-bold text-secondary">Procurement Agent</h4>
+                    <p class="mt-2 text-gray-600 font-light text-sm">วิเคราะห์ราคาตลาดและแนะนำการซื้อล่วงหน้าเพื่อลดต้นทุนวัตถุดิบ</p>
+                </div>
+                
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md border-t-4 border-primary hover:shadow-lg transition">
+                    <svg class="w-8 h-8 text-primary mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    <h4 class="text-xl font-bold text-secondary">Logistics Orchestrator</h4>
+                    <p class="mt-2 text-gray-600 font-light text-sm">คาดการณ์ Demand Shock และสั่งการโยกย้ายสต็อกข้ามคลัง</p>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md border-t-4 border-secondary hover:shadow-lg transition">
+                    <svg class="w-8 h-8 text-secondary mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    <h4 class="text-xl font-bold text-secondary">Unstructured Data Agent</h4>
+                    <p class="mt-2 text-gray-600 font-light text-sm">ตีความเงื่อนไขทางธุรกิจจากเอกสารสัญญา/OCR ที่ซับซ้อน</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="value" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-4xl text-center text-secondary">
+                การันตีผลตอบแทน: <span class="text-primary">ROI ที่วัดผลได้จริง</span>
+            </h2>
+            
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10">
+                
+                <div class="text-center p-6 border-r border-gray-200">
+                    <div class="text-6xl font-extrabold text-primary">4-6</div>
+                    <p class="text-xl font-medium text-secondary mt-2">เดือน</p>
+                    <p class="text-gray-600 mt-1">ระยะเวลาคืนทุน (Payback Period)</p>
+                </div>
+
+                <div class="text-center p-6 border-r border-gray-200">
+                    <div class="text-6xl font-extrabold text-secondary">15%</div>
+                    <p class="text-xl font-medium text-secondary mt-2">ลด Margin Leakage</p>
+                    <p class="text-gray-600 mt-1">จากการควบคุมการตั้งราคาและต้นทุน</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="text-6xl font-extrabold text-primary">20%</div>
+                    <p class="text-xl font-medium text-secondary mt-2">ลด Cost of Inaction</p>
+                    <p class="text-gray-600 mt-1">จากการตัดสินใจที่รวดเร็ว (Decision Velocity)</p>
+                </div>
+            </div>
+
+            <div class="mt-16 p-10 bg-gray-100 rounded-xl shadow-inner border-l-4 border-primary">
+                <h3 class="text-2xl font-bold text-secondary mb-3">Case Study: The Commodity Sniper</h3>
+                <p class="text-gray-700 font-light">
+                    Agent จัดซื้อของเราช่วยลูกค้าในอุตสาหกรรม FMCG ประหยัดต้นทุนวัตถุดิบได้ **5 ล้านบาท/ปี** จากการล็อกราคาซื้อล่วงหน้าในจังหวะที่เหมาะสม โดยอาศัยการเชื่อมข้อมูล SAP สต็อกเข้ากับข่าวสารเศรษฐกิจแบบเรียลไทม์
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="differentiator" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-4xl text-center text-secondary mb-16">
+                ความแตกต่างที่ชัดเจน: <span class="text-primary">เหนือกว่าระบบเดิม</span>
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                
+                <div class="space-y-8">
+                    <div class="border-l-4 border-primary pl-6">
+                        <h3 class="text-2xl text-secondary">TH8 vs. ERP/BI: System of Execution</h3>
+                        <p class="mt-2 text-gray-600 font-light">ERP คือการบันทึกอดีต เราคือ **'สมอง'** ที่เชื่อมโยง **Profitability Goals** เข้ากับการปฏิบัติการอย่างต่อเนื่อง</p>
+                    </div>
+
+                    <div class="border-l-4 border-secondary pl-6">
+                        <h3 class="text-2xl text-secondary">TH8 vs. RPA/OCR: Intelligent Automation</h3>
+                        <p class="mt-2 text-gray-600 font-light">เราจัดการ **Exceptions** และ **Unstructured Data** ได้อย่างมีวิจารณญาณ ไม่ใช่แค่ทำตามกฎตายตัวเหมือนหุ่นยนต์</p>
+                    </div>
+
+                    <div class="border-l-4 border-primary pl-6">
+                        <h3 class="text-2xl text-secondary">TH8 DNA: Thai Market Context</h3>
+                        <p class="mt-2 text-gray-600 font-light">Agent ถูกจูนมาให้เข้าใจ **ความซับซ้อน** ของตลาดจัดจำหน่ายในไทยโดยเฉพาะ ซึ่ง LLM ทั่วไปไม่สามารถเลียนแบบได้</p>
+                    </div>
+                </div>
+
+                <div id="security" class="bg-gray-100 p-8 rounded-2xl shadow-inner border-l-8 border-secondary">
+                    <h3 class="text-2xl text-secondary mb-6">The Trust Blueprint (การันตีความมั่นคง)</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.192-2.058-.512-3.016z"></path></svg>
+                            <div>
+                                <span class="font-bold text-secondary">Clean Core Integration:</span> ไม่แตะต้องระบบหลัก (SAP) แต่เชื่อมต่อผ่าน Secured API เท่านั้น
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                            <div>
+                                <span class="font-bold text-secondary">Zero Data Training Policy:</span> ข้อมูลไม่ถูกนำไปฝึกฝนโมเดล AI ด้วย Private Endpoint
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                            <div>
+                                <span class="font-bold text-secondary">Full Audit Trail:</span> ทุกการกระทำถูกบันทึก Log และต้องผ่าน **Human-in-the-Loop** ก่อนสั่งการสำคัญ
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-secondary">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center bg-secondary p-10 rounded-2xl">
+            <h2 class="text-4xl text-white">
+                ลงทุนใน <span class="text-primary">Decision Velocity</span> ขององค์กรท่าน
+            </h2>
+            <p class="mt-4 text-xl font-light text-gray-300">
+                เริ่มต้นด้วย **Rapid Pilot Program** เพื่อพิสูจน์ผลลัพธ์ใน 8 สัปดาห์ โดยไม่มีความเสี่ยงต่อระบบหลักของท่าน
+            </p>
+            <div class="mt-10">
+                <a href="mailto:your.email@th8.ai" class="bg-primary text-white text-xl font-bold px-12 py-5 rounded-full hover:bg-red-700 transition duration-300 shadow-xl shadow-red-400/50">
+                    นัดหมาย Diagnostic Session ตอนนี้
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-sm text-gray-500 border-t border-gray-100 bg-white">
+        &copy; 2025 TH8.AI | Enterprise AI Agent Orchestrator. Made with Prompt.
+    </footer>
+
+</body>
+</html>
